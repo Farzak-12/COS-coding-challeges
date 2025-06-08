@@ -11,5 +11,5 @@ power = len(binary) - 1 #calculate the power of 2
 final_dec = 0 #variable to store the final decimal value
 for number in binary:
     final_dec += int(number)*(2**power) #calculate the decimal value
-    pow -= 1 #decrease the power of 2
+    power -= 1 #decrease the power of 2
 print("The decimal equivalent of your number is ", final_dec)
